@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNW Legal Solutions | Washington State Record Expungement & Relief</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            900: '#0B192C',
+                            800: '#1E3E62',
+                            700: '#000000',
+                        },
+                        gold: {
+                            500: '#C5A059',
+                            600: '#B08D46',
+                        },
+                        charcoal: '#222831'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-md border-b border-gold-500/20 text-white transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center shadow-md">
+                    <i class="fa-solid fa-scale-balanced text-navy-900 text-lg"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-serif font-bold tracking-wide text-white block">PNW Legal Solutions</span>
+                    <span class="text-xs text-gold-500 tracking-widest uppercase font-medium">Washington State Advocacy</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#services" class="hover:text-gold-500 transition-colors">Practice Areas</a>
+                <a href="#calculator" class="hover:text-gold-500 transition-colors">Sliding Scale Calculator</a>
+                <a href="#booking" class="hover:text-gold-500 transition-colors font-semibold text-gold-400">Book Consultation</a>
+                <a href="#about" class="hover:text-gold-500 transition-colors">Our Commitment</a>
+                <a href="#faq" class="hover:text-gold-500 transition-colors">FAQ</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="tel:8885769925" class="text-xs text-slate-300 hover:text-white flex items-center gap-1.5 font-semibold">
+                    <i class="fa-solid fa-phone text-gold-500"></i> 888-576-9925
+                </a>
+                <a href="#booking" class="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-navy-900 font-semibold px-5 py-2.5 rounded-lg shadow-lg transition-transform hover:-translate-y-0.5">
+                    Schedule Now
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none p-2">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-900 border-b border-gold-500/20 px-6 py-6 space-y-4 shadow-2xl">
+            <a href="#services" class="block text-base hover:text-gold-500">Practice Areas</a>
+            <a href="#calculator" class="block text-base hover:text-gold-500">Sliding Scale Calculator</a>
+            <a href="#booking" class="block text-base text-gold-400 font-semibold hover:text-gold-500">Book Consultation</a>
+            <a href="#about" class="block text-base hover:text-gold-500">Our Commitment</a>
+            <a href="#faq" class="block text-base hover:text-gold-500">FAQ</a>
+            <div class="pt-4 border-t border-slate-800 flex flex-col gap-3">
+                <a href="tel:8885769925" class="text-sm text-gold-500 font-medium"><i class="fa-solid fa-phone mr-2"></i> 888-576-9925</a>
+                <a href="#booking" class="bg-gold-500 text-navy-900 text-center font-semibold py-3 rounded-lg">Schedule Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-32 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white overflow-hidden">
+        <!-- Background Accent Glows -->
+        <div class="absolute top-1/4 -left-20 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-10 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-shield-halved"></i> Washington State Remote & Virtual Legal Relief
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-tight tracking-tight">
+                        Reclaim Your Future. <br><span class="text-gold-500">Affordable Justice</span> across Washington.
+                    </h1>
+                    <p class="text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                        Clear your criminal record, waive overwhelming court fines and legal financial obligations (LFOs), and restore your constitutional firearm rights. We operate on a transparent income-based sliding scale to ensure high-quality legal advocacy is accessible to all Washington residents.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#booking" class="w-full sm:w-auto bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-navy-900 font-bold px-8 py-4 rounded-xl shadow-xl transition-transform hover:-translate-y-0.5 text-center">
+                            Book Consultation & Upload Files
+                        </a>
+                        <a href="#calculator" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-6 py-4 rounded-xl transition-colors text-center backdrop-blur-sm">
+                            Calculate Your Rate <i class="fa-solid fa-arrow-down ml-2"></i>
+                        </a>
+                    </div>
+                    <!-- Trust Badges -->
+                    <div class="pt-8 border-t border-white/10 grid grid-cols-3 gap-4 text-left max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <div class="text-2xl font-bold font-serif text-gold-500">100%</div>
+                            <div class="text-xs text-slate-400">WA State Focused</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold font-serif text-gold-500">Sliding Scale</div>
+                            <div class="text-xs text-slate-400">$100 - $250 / hr</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold font-serif text-gold-500">Secure</div>
+                            <div class="text-xs text-slate-400">Document Upload</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Quick Contact Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white/5 backdrop-blur-xl border border-gold-500/30 p-8 rounded-2xl shadow-2xl relative">
+                        <div class="absolute -top-3 right-6 bg-gold-500 text-navy-900 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+                            Call Toll-Free
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold text-white mb-2">Speak With Us Directly</h3>
+                        <p class="text-sm text-slate-300 mb-6">Call our dedicated toll-free line or book your consultation online instantly.</p>
+                        
+                        <div class="space-y-4">
+                            <a href="tel:8885769925" class="w-full bg-navy-900 border border-gold-500/50 hover:bg-navy-800 text-gold-400 font-bold py-4 rounded-xl transition-colors text-center flex items-center justify-center gap-3 text-lg shadow-lg">
+                                <i class="fa-solid fa-phone-volume text-gold-500"></i> 888-576-9925
+                            </a>
+                            <a href="#booking" class="w-full bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold py-3.5 rounded-lg shadow-lg transition-colors text-sm uppercase tracking-wider text-center block">
+                                Schedule Online & Upload Files
+                            </a>
+                        </div>
+                        <div class="mt-6 text-center text-xs text-slate-400">
+                            <i class="fa-solid fa-lock mr-1 text-gold-500"></i> All client consultations are strictly confidential.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-gold-600 font-semibold text-sm tracking-widest uppercase">Comprehensive Legal Solutions</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">How We Can Help You in Washington State</h2>
+                <p class="text-slate-600 text-base">
+                    Legal burdens should not dictate your entire future. We specialize in targeted Washington State legal remedies designed to give you a fresh slate.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1: Court Fines / LFOs -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:border-gold-500/50 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md">
+                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-bold text-navy-900 mb-3">Waive Court Fines & LFOs</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Washington courts frequently impose crushing Legal Financial Obligations (LFOs) and interest. We petition courts to remit, waive, or convert burdensome fines, helping you regain financial stability and clear your driver's license.
+                        </p>
+                        <ul class="space-y-2.5 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Motion for Remission of Fines</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Driver's License Reinstatement Support</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Hardship & Indigency Analysis</li>
+                        </ul>
+                    </div>
+                    <a href="#booking" class="inline-flex items-center text-sm font-semibold text-navy-900 hover:text-gold-600 group-hover:translate-x-1 transition-all">
+                        Book Consultation for Fines <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: Firearm Rights -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:border-gold-500/50 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md">
+                            <i class="fa-solid fa-shield"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-bold text-navy-900 mb-3">Firearm Rights Restoration</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Loss of Second Amendment rights can impact personal protection, employment, and outdoor heritage. We navigate Washington Superior Court petitions to fully restore your constitutional firearm rights once statutory waiting periods are met.
+                        </p>
+                        <ul class="space-y-2.5 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> RCW 9.41.040 Compliance Review</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Superior Court Petitions</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> NICS / DOL Record Clearance</li>
+                        </ul>
+                    </div>
+                    <a href="#booking" class="inline-flex items-center text-sm font-semibold text-navy-900 hover:text-gold-600 group-hover:translate-x-1 transition-all">
+                        Book Rights Restoration <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3: Criminal Record Expungement -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:border-gold-500/50 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md">
+                            <i class="fa-solid fa-folder-open"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-bold text-navy-900 mb-3">Vacate & Seal Criminal Records</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Past convictions can hinder housing, job opportunities, and professional licensing. Under Washington law, many misdemeanor and felony records can be vacated and sealed so you can legally answer "no" on background checks.
+                        </p>
+                        <ul class="space-y-2.5 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Misdemeanor & Felony Vacating</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> Non-Disclosure Order Filings</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> WSP & FBI Background Updates</li>
+                        </ul>
+                    </div>
+                    <a href="#booking" class="inline-flex items-center text-sm font-semibold text-navy-900 hover:text-gold-600 group-hover:translate-x-1 transition-all">
+                        Book Record Review <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Sliding Scale Pricing Calculator Section -->
+    <section id="calculator" class="py-24 bg-navy-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#C5A059_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-gold-500 font-semibold text-sm tracking-widest uppercase">Fair & Transparent Legal Fees</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold">Income-Based Sliding Scale Calculator</h2>
+                <p class="text-slate-300 text-base">
+                    We believe justice should never be out of reach simply due to income. Use our interactive calculator below to determine your exact hourly rate based on your annual household income.
+                </p>
+            </div>
+
+            <!-- Calculator Widget Container -->
+            <div class="max-w-4xl mx-auto bg-navy-800/90 border border-gold-500/30 rounded-2xl p-6 sm:p-10 shadow-2xl backdrop-blur-md">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Controls Column -->
+                    <div class="lg:col-span-7 space-y-6">
+                        <div>
+                            <div class="flex justify-between items-center mb-3">
+                                <label class="text-sm font-semibold uppercase tracking-wider text-slate-300">Annual Household Income</label>
+                                <span id="income-display" class="text-xl font-serif font-bold text-gold-500 bg-navy-900 px-4 py-1.5 rounded-lg border border-gold-500/20">$45,000</span>
+                            </div>
+                            <!-- Range Slider -->
+                            <input type="range" id="income-slider" min="10000" max="110000" step="2500" value="45000" 
+                                class="w-full h-3 bg-navy-900 rounded-lg appearance-none cursor-pointer accent-gold-500 focus:outline-none"
+                                oninput="updateCalculator(this.value)">
+                            <div class="flex justify-between text-xs text-slate-400 mt-2">
+                                <span>$0 (Indigent)</span>
+                                <span>$25k</span>
+                                <span>$50k</span>
+                                <span>$75k</span>
+                                <span>$100k+</span>
+                            </div>
+                        </div>
+
+                        <!-- Tier Breakdown Cards -->
+                        <div class="space-y-2 pt-2">
+                            <span class="text-xs uppercase tracking-wider text-slate-400 font-semibold block mb-2">Tier Breakdown Reference:</span>
+                            
+                            <div id="tier-1" class="tier-card p-3 rounded-xl border border-slate-700 bg-navy-900/50 flex justify-between items-center transition-all">
+                                <div>
+                                    <span class="text-sm font-medium text-white block">Tier 1: $0 – $25,000</span>
+                                    <span class="text-xs text-slate-400">Deep hardship support</span>
+                                </div>
+                                <span class="text-gold-500 font-bold">$100 / hr</span>
+                            </div>
+
+                            <div id="tier-2" class="tier-card p-3 rounded-xl border border-gold-500/50 bg-gold-500/10 flex justify-between items-center transition-all">
+                                <div>
+                                    <span class="text-sm font-medium text-white block">Tier 2: $25,001 – $50,000</span>
+                                    <span class="text-xs text-slate-300">Moderate income adjustment</span>
+                                </div>
+                                <span class="text-gold-500 font-bold">$150 / hr</span>
+                            </div>
+
+                            <div id="tier-3" class="tier-card p-3 rounded-xl border border-slate-700 bg-navy-900/50 flex justify-between items-center transition-all">
+                                <div>
+                                    <span class="text-sm font-medium text-white block">Tier 3: $50,001 – $74,999</span>
+                                    <span class="text-xs text-slate-400">Standard lower-middle tier</span>
+                                </div>
+                                <span class="text-gold-500 font-bold">$200 / hr</span>
+                            </div>
+
+                            <div id="tier-4" class="tier-card p-3 rounded-xl border border-slate-700 bg-navy-900/50 flex justify-between items-center transition-all">
+                                <div>
+                                    <span class="text-sm font-medium text-white block">Tier 4: $75,000+</span>
+                                    <span class="text-xs text-slate-400">Standard professional rate</span>
+                                </div>
+                                <span class="text-gold-500 font-bold">$250 / hr</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Result Display Column -->
+                    <div class="lg:col-span-5 bg-navy-900 p-8 rounded-2xl border border-gold-500/30 text-center flex flex-col justify-between space-y-6 shadow-xl">
+                        <div>
+                            <span class="text-xs uppercase tracking-widest text-gold-500 font-semibold block mb-1">Your Calculated Rate</span>
+                            <div class="text-5xl font-serif font-bold text-white my-3" id="rate-result">$150</div>
+                            <span class="text-xs text-slate-400 block" id="tier-label">Per Hour (Tier 2)</span>
+                        </div>
+
+                        <div class="bg-navy-800/80 p-4 rounded-xl border border-slate-700 text-left text-xs text-slate-300 space-y-2">
+                            <div class="flex items-center gap-2 text-gold-500 font-semibold">
+                                <i class="fa-solid fa-circle-check">* Transparent Commitment</i>
+                            </div>
+                            <p>No hidden retainers. Your rate is applied directly when you book your consultation below.</p>
+                        </div>
+
+                        <a href="#booking" onclick="syncRateToBooking()" class="w-full bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-navy-900 font-bold py-3.5 rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider block">
+                            Apply Rate & Book Consultation
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Booking & File Upload Section -->
+    <section id="booking" class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 space-y-3">
+                <span class="text-gold-600 font-semibold text-sm tracking-widest uppercase">Secure Intake & Scheduling</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Book Your Confidential Consultation & Upload Files</h2>
+                <p class="text-slate-600 text-base max-w-2xl mx-auto">
+                    Select your income tier, pick an available date and time slot, and securely upload any court notices or criminal history documents for your attorney review.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-xl">
+                <form id="booking-form" onsubmit="handleBookingSubmit(event)" class="space-y-8">
+                    
+                    <!-- Step 1: Personal & Income Information -->
+                    <div>
+                        <h3 class="text-lg font-serif font-bold text-navy-900 mb-4 pb-2 border-b border-slate-200 flex items-center gap-2">
+                            <span class="w-7 h-7 rounded-full bg-navy-900 text-gold-500 text-xs flex items-center justify-center font-sans">1</span>
+                            Client Details & Income Verification
+                        </h3>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Full Name *</label>
+                                <input type="text" id="book-name" required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm" placeholder="Enter your full name">
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Phone Number *</label>
+                                <input type="tel" id="book-phone" required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm" placeholder="888-576-9925">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Email Address *</label>
+                                <input type="email" id="book-email" required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm" placeholder="your.email@domain.com">
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Annual Income & Calculated Rate *</label>
+                                <select id="book-tier-select" onchange="updateBookingRateDisplay()" class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm font-medium">
+                                    <option value="100" data-tier="Tier 1">Tier 1: $0 – $25,000 ($100/hr)</option>
+                                    <option value="150" data-tier="Tier 2" selected>Tier 2: $25,001 – $50,000 ($150/hr)</option>
+                                    <option value="200" data-tier="Tier 3">Tier 3: $50,001 – $74,999 ($200/hr)</option>
+                                    <option value="250" data-tier="Tier 4">Tier 4: $75,000+ ($250/hr)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Service & Document Upload -->
+                    <div>
+                        <h3 class="text-lg font-serif font-bold text-navy-900 mb-4 pb-2 border-b border-slate-200 flex items-center gap-2">
+                            <span class="w-7 h-7 rounded-full bg-navy-900 text-gold-500 text-xs flex items-center justify-center font-sans">2</span>
+                            Primary Legal Matter & Document Upload
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Primary Legal Service *</label>
+                                <select required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm">
+                                    <option value="">Select service type...</option>
+                                    <option>Waive / Mitigate Court Fines & LFOs</option>
+                                    <option>Restore Firearm Rights (RCW 9.41.040)</option>
+                                    <option>Expunge / Vacate & Seal Criminal Record</option>
+                                    <option>Multiple Services / General Legal Inquiry</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Upload Court Docs / Criminal History (Optional)</label>
+                                <div class="relative border-2 border-dashed border-slate-300 rounded-xl p-3 bg-white hover:border-gold-500 transition-colors text-center cursor-pointer">
+                                    <input type="file" id="file-upload" multiple class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" onchange="handleFileSelect(event)">
+                                    <div class="flex items-center justify-center gap-2 text-xs text-slate-600">
+                                        <i class="fa-solid fa-cloud-arrow-up text-gold-600 text-base"></i>
+                                        <span id="file-upload-label">Click to attach files (PDF, JPG, DOC)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Case Details / Notes</label>
+                            <textarea rows="3" class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm" placeholder="Please list approximate dates, county courts involved, or specific questions..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Calendar Date & Time Slot Selection (Concurrent Booking Supported) -->
+                    <div>
+                        <h3 class="text-lg font-serif font-bold text-navy-900 mb-4 pb-2 border-b border-slate-200 flex items-center gap-2">
+                            <span class="w-7 h-7 rounded-full bg-navy-900 text-gold-500 text-xs flex items-center justify-center font-sans">3</span>
+                            Select Consultation Date & Time Slot
+                        </h3>
+                        <p class="text-xs text-slate-500 mb-4">
+                            <i class="fa-solid fa-circle-info text-gold-600 mr-1"></i> Multiple clients can schedule consultations simultaneously during standard consultation blocks.
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Consultation Date *</label>
+                                <input type="date" id="book-date" required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider text-slate-700 font-bold mb-2">Time Slot *</label>
+                                <select id="book-time" required class="w-full px-4 py-3.5 bg-white border border-slate-300 rounded-xl text-slate-800 focus:border-gold-500 focus:ring-1 focus:ring-gold-500 focus:outline-none text-sm shadow-sm font-medium">
+                                    <option value="">Select available time slot...</option>
+                                    <option value="09:00 AM">09:00 AM - 10:00 AM (Open)</option>
+                                    <option value="10:30 AM">10:30 AM - 11:30 AM (Open)</option>
+                                    <option value="01:00 PM">01:00 PM - 02:00 PM (Open)</option>
+                                    <option value="03:00 PM">03:00 PM - 04:00 PM (Open)</option>
+                                    <option value="04:30 PM">04:30 PM - 05:30 PM (Open)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Non-Refundable Fee Notice & Submit -->
+                    <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 text-amber-900 text-xs leading-relaxed space-y-2">
+                        <div class="font-bold flex items-center gap-2 text-sm">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-600"></i> Notice Regarding Consultation Fees & Non-Refundable Policy
+                        </div>
+                        <p>
+                            Consultation fees are <strong>strictly non-refundable</strong> once scheduled and confirmed, as attorney preparation and conflict checking begin immediately. By submitting this form, you acknowledge and agree to this non-refundable policy and authorize PNW Legal Solutions to process your consultation at your selected sliding scale rate.
+                        </p>
+                    </div>
+
+                    <button type="submit" class="w-full bg-gradient-to-r from-navy-900 to-navy-800 hover:from-navy-800 hover:to-navy-700 text-gold-500 font-bold py-4 rounded-xl shadow-xl transition-all text-sm uppercase tracking-wider flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-calendar-check"></i> Confirm & Secure Consultation Slot
+                    </button>
+                </form>
+
+                <!-- Booking Success State (Hidden by default) -->
+                <div id="booking-success" class="hidden py-12 text-center space-y-6">
+                    <div class="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-4xl shadow-inner">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="space-y-2 max-w-lg mx-auto">
+                        <h3 class="text-2xl font-serif font-bold text-navy-900">Consultation Successfully Booked!</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed" id="success-details">
+                            Thank you. Your consultation has been scheduled. A confirmation email and secure video/phone link have been sent to your email address.
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <button onclick="resetBookingForm()" class="bg-navy-900 text-gold-500 font-semibold px-6 py-3 rounded-xl text-sm shadow-md hover:bg-navy-800 transition-colors">
+                            Book Another Consultation
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Credibility Section -->
+    <section id="about" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-gold-600 font-semibold text-sm tracking-widest uppercase">Why Choose PNW Legal Solutions</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Dedicated Advocacy Rooted in Fairness & Dignity</h2>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Navigating Washington court systems, county clerk offices, and the Washington State Patrol background repositories can be daunting. We bring years of specialized knowledge in post-conviction relief, fine mitigation, and Second Amendment rights restoration.
+                    </p>
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 mt-1 shadow-md">
+                                <i class="fa-solid fa-scale-balanced text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-serif font-bold text-navy-900 text-lg">Strictly Washington State Expertise</h4>
+                                <p class="text-slate-600 text-sm">Focused specifically on Washington courts, RCWs, and local county procedures for maximum efficiency.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 mt-1 shadow-md">
+                                <i class="fa-solid fa-handshake text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-serif font-bold text-navy-900 text-lg">Compassionate, Non-Judgmental Counsel</h4>
+                                <p class="text-slate-600 text-sm">Everyone deserves a second chance. We treat every client with absolute respect and confidentiality.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 mt-1 shadow-md">
+                                <i class="fa-solid fa-wallet text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-serif font-bold text-navy-900 text-lg">Guaranteed Sliding-Scale Fairness</h4>
+                                <p class="text-slate-600 text-sm">Our rates scale directly with your income so you receive top-tier legal defense regardless of your bank account balance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats / Graphic Card -->
+                <div class="bg-navy-900 text-white p-8 sm:p-12 rounded-3xl shadow-2xl relative border border-gold-500/20">
+                    <div class="absolute top-0 right-0 transform translate-x-4 -translate-y-4 w-24 h-24 bg-gold-500/20 rounded-full blur-xl pointer-events-none"></div>
+                    <h3 class="text-2xl font-serif font-bold mb-6 text-gold-500">Our Sliding Scale Commitments</h3>
+                    <div class="space-y-6">
+                        <div class="border-b border-slate-800 pb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-sm">Income $0 – $25,000</span>
+                                <span class="text-gold-500 font-bold">$100 / hr</span>
+                            </div>
+                            <p class="text-xs text-slate-400">Designed for low-income workers, students, and those experiencing economic hardship.</p>
+                        </div>
+                        <div class="border-b border-slate-800 pb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-sm">Income $25,001 – $50,000</span>
+                                <span class="text-gold-500 font-bold">$150 / hr</span>
+                            </div>
+                            <p class="text-xs text-slate-400">Fair pricing for working-class individuals and families across Washington.</p>
+                        </div>
+                        <div class="border-b border-slate-800 pb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-sm">Income $50,001 – $74,999</span>
+                                <span class="text-gold-500 font-bold">$200 / hr</span>
+                            </div>
+                            <p class="text-xs text-slate-400">Moderate tier for stable middle-income households seeking expert legal help.</p>
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-sm">Income $75,000+</span>
+                                <span class="text-gold-500 font-bold">$250 / hr</span>
+                            </div>
+                            <p class="text-xs text-slate-400">Standard professional rate supporting our subsidized sliding-scale initiative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 space-y-3">
+                <span class="text-gold-600 font-semibold text-sm tracking-widest uppercase">Common Questions</span>
+                <h2 class="text-3xl font-serif font-bold text-navy-900">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h3 class="font-serif font-bold text-navy-900 text-lg mb-2">How does the sliding scale hourly rate work?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Our fees are directly tied to your annual household income. If you earn between $0 and $25,000, your rate is $100/hr. For $25,001–$50,000 it is $150/hr, for $50,001–$74,999 it is $200/hr, and for $75,000+ it is $250/hr. You select your bracket when booking your consultation.
+                    </p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h3 class="font-serif font-bold text-navy-900 text-lg mb-2">Why is the consultation fee non-refundable?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        To maintain our affordable sliding-scale rates and ensure dedicated attorney preparation, conflict checks, and document review for every scheduled appointment, consultation fees are strictly non-refundable once booked.
+                    </p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h3 class="font-serif font-bold text-navy-900 text-lg mb-2">Can Washington State court fines and LFOs really be waived?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Yes. Under Washington law and recent court rulings (such as RCW 10.01.160), courts have the authority to remit or waive legal financial obligations, interest, and non-mandatory fees if payment imposes a manifest hardship. We prepare formal motions demonstrating indigency or financial burden.
+                    </p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h3 class="font-serif font-bold text-navy-900 text-lg mb-2">What is required to restore firearm rights in Washington?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Restoration depends on the nature of the conviction (felony vs. certain misdemeanors/domestic violence offenses), the completion of all sentencing requirements, and statutory waiting periods (typically 3 to 5+ years crime-free in the community). We review your criminal history report to confirm eligibility.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 text-white border-t border-gold-500/20 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="space-y-4 md:col-span-1">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-gold-500 flex items-center justify-center">
+                            <i class="fa-solid fa-scale-balanced text-navy-900 text-sm"></i>
+                        </div>
+                        <span class="text-lg font-serif font-bold">PNW Legal Solutions</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Dedicated Washington State legal advocacy specializing in fine waivers, firearm rights restoration, and criminal record vacating/expungement.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-gold-500 mb-4">Practice Areas</h4>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Court Fines & LFO Waivers</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Firearm Rights Restoration</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Record Expungement & Vacating</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Driver's License Relief</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-gold-500 mb-4">Sliding Scale Tiers</h4>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li>$0 – $25k: <span class="text-gold-500 font-semibold">$100/hr</span></li>
+                        <li>$25k – $50k: <span class="text-gold-500 font-semibold">$150/hr</span></li>
+                        <li>$50k – $75k: <span class="text-gold-500 font-semibold">$200/hr</span></li>
+                        <li>$75k+: <span class="text-gold-500 font-semibold">$250/hr</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-gold-500 mb-4">Contact Office</h4>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><i class="fa-solid fa-phone text-gold-500 mr-2"></i> 888-576-9925</li>
+                        <li><i class="fa-solid fa-envelope text-gold-500 mr-2"></i> help@pnwlegalsolutions.com</li>
+                        <li><i class="fa-solid fa-globe text-gold-500 mr-2"></i> Serving All Washington Counties</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 space-y-3">
+                <p>Disclaimer: The information provided on this website is for general informational purposes only and does not constitute formal legal advice. Contacting us does not establish an attorney-client relationship.</p>
+                <p>&copy; 2026 PNW Legal Solutions, PLLC. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Set minimum date for booking calendar to today
+        const today = new Date().toISOString().split('T')[0];
+        const dateInput = document.getElementById('book-date');
+        if(dateInput) {
+            dateInput.min = today;
+            dateInput.value = today;
+        }
+
+        // Sliding Scale Calculator Logic
+        function updateCalculator(val) {
+            const income = parseInt(val);
+            document.getElementById('income-display').innerText = '$' + income.toLocaleString();
+
+            let rate = 100;
+            let tierNum = 1;
+            let label = 'Tier 1 (Hardship Support)';
+
+            for(let i=1; i<=4; i++) {
+                const card = document.getElementById('tier-' + i);
+                card.className = "tier-card p-3 rounded-xl border border-slate-700 bg-navy-900/50 flex justify-between items-center transition-all";
+            }
+
+            if (income <= 25000) {
+                rate = 100;
+                tierNum = 1;
+                label = 'Tier 1 ($0 – $25,000)';
+            } else if (income <= 50000) {
+                rate = 150;
+                tierNum = 2;
+                label = 'Tier 2 ($25,001 – $50,000)';
+            } else if (income <= 74999) {
+                rate = 200;
+                tierNum = 3;
+                label = 'Tier 3 ($50,001 – $74,999)';
+            } else {
+                rate = 250;
+                tierNum = 4;
+                label = 'Tier 4 ($75,000+)';
+            }
+
+            const activeCard = document.getElementById('tier-' + tierNum);
+            activeCard.className = "tier-card p-3 rounded-xl border border-gold-500/50 bg-gold-500/10 flex justify-between items-center transition-all scale-[1.02]";
+
+            document.getElementById('rate-result').innerText = '$' + rate;
+            document.getElementById('tier-label').innerText = 'Per Hour (' + label + ')';
+
+            // Store calculated rate for synchronization
+            window.lastCalculatedRate = rate;
+            window.lastCalculatedTier = tierNum;
+        }
+
+        function syncRateToBooking() {
+            if (window.lastCalculatedRate) {
+                const select = document.getElementById('book-tier-select');
+                for (let i = 0; i < select.options.length; i++) {
+                    if (select.options[i].value == window.lastCalculatedRate) {
+                        select.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+        }
+
+        function updateBookingRateDisplay() {
+            // Handled natively by dropdown value change
+        }
+
+        // File upload label update
+        function handleFileSelect(e) {
+            const files = e.target.files;
+            if (files.length > 0) {
+                const label = document.getElementById('file-upload-label');
+                if (files.length === 1) {
+                    label.innerText = files[0].name;
+                } else {
+                    label.innerText = files.length + " files attached successfully";
+                }
+            }
+        }
+
+        // Booking Form Submission Handler (Allows concurrent multi-client booking)
+        function handleBookingSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('book-name').value;
+            const date = document.getElementById('book-date').value;
+            const time = document.getElementById('book-time').value;
+            const tierSelect = document.getElementById('book-tier-select');
+            const rate = tierSelect.value;
+
+            document.getElementById('booking-form').style.display = 'none';
+            const successDiv = document.getElementById('booking-success');
+            successDiv.classList.remove('hidden');
+
+            document.getElementById('success-details').innerHTML = `
+                Thank you, <strong>${name}</strong>. Your consultation has been successfully scheduled for <strong>${date} at ${time}</strong>.<br><br>
+                Your selected sliding scale rate is <strong>$${rate}/hr</strong>. Because consultation slots allow concurrent bookings, your appointment is confirmed. A non-refundable consultation receipt and secure video link have been dispatched to your email.
+            `;
+        }
+
+        function resetBookingForm() {
+            document.getElementById('booking-form').reset();
+            document.getElementById('booking-form').style.display = 'block';
+            document.getElementById('booking-success').classList.add('hidden');
+            document.getElementById('file-upload-label').innerText = 'Click to attach files (PDF, JPG, DOC)';
+        }
+    </script>
+</body>
+</html>
